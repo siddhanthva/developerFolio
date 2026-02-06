@@ -54,9 +54,17 @@
 }
 
 .greeting-image-div > img {
+  width: 470px;
   max-width: 100%;
   height: auto;
 }
+
+.greeting-image-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 .wave-emoji {
   animation-duration: 1.8s;

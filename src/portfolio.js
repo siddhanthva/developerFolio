@@ -16,30 +16,31 @@ const splashScreen = {
 // Summary And Greeting Section
 
 const illustration = {
-  animated: true // Set to false to use static SVG
+  animated: false // Set to false to use static SVG
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Siddhanth Veeranna Arkasali",
+  title: "Hi all, I'm Siddhanth",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Data Science and AI Engineer 🚀 with experience building data-driven and AI-enabled solutions for engineering and industry-focused use cases, leveraging Python, machine learning, and applied analytics to drive measurable impact."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
-  displayGreeting: true // Set false to hide this section, defaults to true
+    "https://drive.google.com/file/d/1ptertH-9MQ8QGwQxCrqb_LFPcHS1HV8t/view?usp=sharing", // Set to empty to hide the button
+  displayGreeting: true, // Set false to hide this section, defaults to true
+  profileImage: "src/assets/images/profile.png"
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/siddhanthva",
+  linkedin: "https://www.linkedin.com/in/siddhanth-arkasali/",
+  gmail: "siddhanthva@gmail.com",
+  // gitlab: "https://gitlab.com/saadpasta",
+  // facebook: "https://www.facebook.com/saad.pasta7",
+  // medium: "https://medium.com/@saadpasta",
+  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,14 +50,15 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "DATA SCIENCE AND AI ENGINEER FOCUSED ON BUILDING INTELLIGENT, DATA-DRIVEN SYSTEMS",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Design and develop end-to-end machine learning pipelines, from data preprocessing and feature engineering to model training and evaluation"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Build predictive analytics and statistical models to extract actionable insights and support data-driven decision-making"
+    ),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Develop AI-powered applications, including LLM-based and retrieval-augmented systems, using modern Python frameworks"
     )
   ],
 
@@ -64,60 +66,56 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
+  {
+    skillName: "Python",
+    fontAwesomeClassname: "fab fa-python"
+  },
+  {
+    skillName: "SQL",
+    fontAwesomeClassname: "fas fa-database"
+  },
+  {
+    skillName: "R",
+    fontAwesomeClassname: "fas fa-chart-line"
+  },
+  {
+    skillName: "Machine Learning",
+    fontAwesomeClassname: "fas fa-brain"
+  },
+  {
+    skillName: "Data Analysis",
+    fontAwesomeClassname: "fas fa-chart-bar"
+  },
+  {
+    skillName: "Time Series",
+    fontAwesomeClassname: "fas fa-clock"
+  },
+  {
+    skillName: "Statistics",
+    fontAwesomeClassname: "fas fa-square-root-alt"
+  },
+  {
+    skillName: "Git",
+    fontAwesomeClassname: "fab fa-git-alt"
+  },
+  {
+    skillName: "Databricks",
+    fontAwesomeClassname: "fas fa-layer-group"
+  },
+  {
+    skillName: "Power BI",
+    fontAwesomeClassname: "fas fa-chart-pie"
+  },
+  {
+    skillName: "Jupyter Notebook",
+    fontAwesomeClassname: "fas fa-book"
+  },
+  {
+    skillName: "Generative AI",
+    fontAwesomeClassname: "fas fa-robot"
+  }
+],
+display: true
 };
 
 // Education Section
@@ -126,23 +124,23 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "University of Houston",
+      logo: require("./assets/images/uhlogo.jpg"),
+      subHeader: "Master of Science in Engineering Data Science and AI",
+      duration: "August 2025 - May 2027",
+      desc: "Graduate program focused on applied data science, machine learning, and AI-driven engineering solutions",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Coursework: Data Science, Machine Learning, Probability and Statistics, Artificial Neural Networks, AI for Engineers",
+        "Hands-on projects involving predictive modeling, analytics, and AI applications"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Amrita Vishwa Vidyapeetham University",
+      logo: require("./assets/images/amritalogo.jpg"),
+      subHeader: "Integrated Masters in Computer Applications",
+      duration: "July 2019 - August 2024",
+      desc: "Comprehensive program covering computer science foundations and applied software systems",
+      descBullets: ["Coursework in DBMS, Data Mining, Software Engineering, and Cloud Computing"]
     }
   ]
 };
@@ -153,17 +151,17 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Data Science & Machine Learning",
+      progressPercentage: "85%"
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Programming (Python, SQL, R)",
+      progressPercentage: "75%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
-    }
+      Stack: "AI & Generative AI",
+      progressPercentage: "65%"
+    },
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -174,29 +172,30 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  role: "Testing Proctor",
+  company: "Center for Academic Support and Assessment (CASA), University of Houston",
+  companylogo: require("./assets/images/uhlogo.jpg"),
+  date: "February 2026 – Present",
+  desc: "Supported secure and efficient exam administration by monitoring testing environments, enforcing academic integrity policies, and assisting students during high-stakes assessments.",
+  descBullets: [
+    "Monitor testing environments for 50–100+ students per shift, ensuring 100% compliance with CASA academic integrity and security policies",
+  "Manage front desk and check-in operations, verifying student identification and coordinating seating for 100+ exam sessions weekly",
+  "Enforce testing protocols (no electronics, food, or unauthorized materials), contributing to zero reported integrity violations during assigned shifts",
+  "Assist students with technical or procedural issues during exams, resolving issues in real time and minimizing exam disruptions",
+  "Handle secure distribution and submission of exam materials with accurate documentation and adherence to CASA administrative procedures"
+  ]
+},
+    {
+      role: "Data Validation Intern",
+      company: "JK Files and Engineering Limited",
+      companylogo: require("./assets/images/jkfileslogo.jpg"),
+      date: "December 2024 – January 2025",
+      desc: "Worked on data quality assurance and analytics readiness across manufacturing, operations, and HR datasets to support reliable reporting and decision-making.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Validated, audited, and standardized enterprise datasets using SQL-based data quality checks, achieving 94% data accuracy across audited records",
+        "Implemented consistency, completeness, and anomaly detection checks to improve analytics-ready data reliability",
+        "Streamlined and partially automated data verification workflows, reducing turnaround time by 15% and improving KPI tracking and reporting"
       ]
-    },
-    {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
   ]
 };
@@ -213,28 +212,41 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "SELECTED PROJECTS IN DATA SCIENCE, MACHINE LEARNING, AND AI SYSTEMS (PROBLEM → METHOD → IMPACT)",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/livlogo.png"),
+      projectName: "The Anatomy of a Livable Neighborhood",
+      projectDesc: "Built an explainable multivariate regression model to quantify urban livability using housing and walkability data, achieving R² = 0.806 with significantly lower MAE than baseline models",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Github",
+          url: ""
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/multilogo.png"),
+      projectName: "Multitudinous Transfer Learning for Paddy Yield Prediction (IEEE Xplore)",
+      projectDesc:
+        "Problem: Crop yield prediction is highly uncertain due to environmental variability. Method: Applied transfer learning for time-series forecasting using multi-source environmental data. Tech Used: Python, deep learning, transfer learning, time-series modeling, climate, soil, and groundwater datasets. Impact: Achieved R² = 0.91 and outperformed Bi-LSTM baselines, enabling earlier and more reliable yield forecasts.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Publication",
+          url: "https://ieeexplore.ieee.org/<your-paper-id>"
+        }
+        ]
+      },
+      {
+      image: require("./assets/images/curvelogo.png"),
+      projectName: "Mountain Road Blind-Curve Alert System (IoT Safety Solution)",
+      projectDesc:
+        "Problem: Blind-curve roads increase collision risk due to limited visibility. Method: Designed a real-time IoT-based alert system integrating sensors, microcontroller logic, and cloud-backed notifications. Tech Used: Arduino/embedded C, ultrasonic sensors, microcontroller programming, IoT architecture, cloud logging. Impact: Enabled real-time vehicle warnings and post-event analysis to improve road safety.",
+      footerLink: [
+        {
+          name: "Publication",
+          url: "https://www.tijer.org/<your-article-link>"
         }
       ]
     }
@@ -300,7 +312,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -324,7 +336,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +355,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +368,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -372,15 +384,15 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+1 281-236-0192",
+  email_address: "siddhanthva@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer

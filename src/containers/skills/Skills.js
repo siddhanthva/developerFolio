@@ -22,7 +22,8 @@ export default function Skills() {
             ) : (
               <img
                 alt="Man Working"
-                src={require("../../assets/images/developerActivity.svg")}
+                className="whatido-image"
+                src={require("../../assets/images/work.png")}
               ></img>
             )}
           </div>

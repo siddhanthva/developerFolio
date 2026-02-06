@@ -16,8 +16,15 @@
 }
 
 .skills-image-div > img {
+  width: 460px;
   max-width: 100%;
   height: auto;
+}
+
+.skills-image-div > img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .skills-heading {
@@ -28,12 +35,28 @@
   color: $subTitle;
 }
 
+.whatido-image {
+  width: 100%;
+  max-width: 420px;
+  height: auto;
+  // width: 520px;          // adjust if needed
+  margin-left: 60px;
+}
+
+@media (max-width: 768px) {
+  .whatido-image {
+    width: 260px;
+    margin-left: 0;
+  }
+}
+
 /* Media Query */
 @media (max-width: 1380px) {
   .skills-heading {
     font-size: 40px;
   }
 }
+
 @media (max-width: 768px) {
   .skills-heading {
     font-size: 30px;
