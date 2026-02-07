@@ -316,25 +316,31 @@ const achievementSection = {
 // Blogs Section
 
 const blogSection = {
-  title: "Blogs",
+  title: "Leadership & Volunteership",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+    "Leadership roles involving event coordination, collaboration, and community engagement at institutional scale.",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      // url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
+      title: "Event Coordinator | Amrita Graduation Ceremony Committee (Sep 2023 – Aug 2023, India)",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Coordinated hospitality operations for 100+ attendees, managing guest support, logistics, and on-site coordination to ensure smooth execution of the graduation ceremony."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      // url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
+      title: "Organizing Committee Member | Amrita CODATHON Competition (Apr 2023 – May 2023, India)",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "Collaborated with faculty and peers to manage event timelines and curate problem statements for a multi-team coding competition, ensuring structured evaluation and smooth event flow."
+    },
+    {
+      // url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
+      title: "Group Manager | Inaugural Ceremony of Amrita Hospital (Jul 2022 – Aug 2022, India)",
+      description:
+        "Managed on-ground operations for a large-scale inaugural event, coordinating dignitaries, logistics, and attendee flow for 500+ participants."
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
