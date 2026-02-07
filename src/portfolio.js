@@ -23,7 +23,7 @@ const greeting = {
   username: "Siddhanth Veeranna Arkasali",
   title: "Hi all, I'm Siddhanth",
   subTitle: emoji(
-    "A passionate Data Science and AI Engineer 🚀 with experience building data-driven and AI-enabled solutions for engineering and industry-focused use cases, leveraging Python, machine learning, and applied analytics to drive measurable impact."
+    "I'm an Engineering Data Science and AI graduate student at the University of Houston, with a strong software engineering foundation from my Master’s in Computer Applications (MCA). I focus on building machine learning and analytics solutions that work in real-world settings—prioritizing usability, interpretability, and reliable decision support over raw accuracy. I'm interested in applying data, ML, and AI to problems in business analytics, manufacturing, operations, healthcare, energy, and safety-critical systems."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ptertH-9MQ8QGwQxCrqb_LFPcHS1HV8t/view?usp=sharing", // Set to empty to hide the button
