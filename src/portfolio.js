@@ -152,15 +152,15 @@ const techStack = {
   experience: [
     {
       Stack: "Data Science & Machine Learning",
-      progressPercentage: "85%"
+      progressPercentage: "90%"
     },
     {
       Stack: "Programming (Python, SQL, R)",
-      progressPercentage: "75%"
+      progressPercentage: "80%"
     },
     {
       Stack: "AI & Generative AI",
-      progressPercentage: "65%"
+      progressPercentage: "75%"
     },
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -178,11 +178,9 @@ const workExperiences = {
   date: "February 2026 – Present",
   desc: "Supported secure and efficient exam administration by monitoring testing environments, enforcing academic integrity policies, and assisting students during high-stakes assessments.",
   descBullets: [
-    "Monitor testing environments for 50–100+ students per shift, ensuring 100% compliance with CASA academic integrity and security policies",
-  "Manage front desk and check-in operations, verifying student identification and coordinating seating for 100+ exam sessions weekly",
-  "Enforce testing protocols (no electronics, food, or unauthorized materials), contributing to zero reported integrity violations during assigned shifts",
-  "Assist students with technical or procedural issues during exams, resolving issues in real time and minimizing exam disruptions",
-  "Handle secure distribution and submission of exam materials with accurate documentation and adherence to CASA administrative procedures"
+    "Proctored secure testing sessions for 50–100+ students per shift, enforcing academic integrity policies with zero violations",
+  "Managed exam logistics, including check-in, ID verification, seating, and secure material handling for 100+ sessions weekly",
+  "Provided real-time exam support, resolving technical and procedural issues to minimize disruptions"
   ]
 },
     {
@@ -205,7 +203,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -217,7 +215,7 @@ const bigProjects = {
     {
       image: require("./assets/images/livlogo.png"),
       projectName: "The Anatomy of a Livable Neighborhood",
-      projectDesc: "Built an explainable multivariate regression model to quantify urban livability using housing and walkability data, achieving R² = 0.806 with significantly lower MAE than baseline models",
+      projectDesc: "Problem: Urban livability is often subjective, limiting data-driven planning decisions. Method: Used EDA and an interpretable multivariate regression model on 2,080 housing records to quantify the impact of walkability and housing features. Tech Used: Python, Pandas, NumPy, Matplotlib, Scikit-Learn, regression modeling. Impact: Achieved R² = 0.806 with ~58% lower MAE vs baseline, validating walkability as a key driver of neighborhood desirability and affordability",
       footerLink: [
         {
           name: "Github",
